@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Book {
 
     private String bookName;
@@ -22,11 +24,10 @@ public class Book {
         return author;
     }
 
-    public void setBookAge(int i) {
+    public void setBookAge() {
     }
 
     public void setookAge(int bookAge) {
         this.bookAge = bookAge;
     }
-
 }

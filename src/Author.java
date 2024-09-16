@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Author {
     private String firstName;
     private String lastName;
@@ -14,9 +16,6 @@ public class Author {
 
     public String getLastName() {
         return lastName;
+
     }
-
-
-}
-
-
+    }
