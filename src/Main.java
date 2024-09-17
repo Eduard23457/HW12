@@ -7,8 +7,8 @@ public class Main {
         Book two = new Book("Горе от ума", bookTwo, 1833);
         System.out.println("Название книги " + one.getBookName() + ". Автор " + bookOne.getFirstName() + " " + one.getAuthor().getLastName() + ", год: " + one.getBookAge());
         System.out.println("Название книги " + two.getBookName() + ". Автор " + bookTwo.getFirstName() + " " + two.getAuthor().getLastName() + ", год: " + two.getBookAge());
-        System.out.println("Название книги " + two.getBookName() + ". Автор" + bookTwo.getFirstName() + " " + two.getAuthor().getLastName() + ", год: " + two.getBookAge());
-    }
 
     }
+
+}
 

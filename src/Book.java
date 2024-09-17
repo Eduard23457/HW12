@@ -13,21 +13,18 @@ public class Book {
     }
 
     public String getBookName() {
-        return this.bookName;
+        return bookName;
     }
 
     public int getBookAge() {
-        return this.bookAge;
+        return bookAge;
     }
 
     public Author getAuthor() {
         return author;
     }
 
-    public void setBookAge() {
-    }
-
-    public void setookAge(int bookAge) {
+    public void setBookAge(int bookAge) {
         this.bookAge = bookAge;
     }
 }
